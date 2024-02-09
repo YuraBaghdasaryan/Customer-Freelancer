@@ -1,0 +1,41 @@
+.divjobs {
+  padding: 20px;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .table1 {
+    width: 100%;
+    border-collapse: collapse;
+
+    th,
+    td {
+      border: 1px solid #101010;
+      padding: 6px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #242424;
+    }
+
+    td {
+      button {
+        background-color: #dc3545;
+        color: #fff;
+        border: none;
+        padding: 8px 12px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #c82333;
+        }
+      }
+    }
+  }
+}

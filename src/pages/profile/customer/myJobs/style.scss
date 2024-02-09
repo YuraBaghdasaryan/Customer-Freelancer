@@ -1,0 +1,147 @@
+.Myjobs {
+  text-align: center;
+  margin: 20px;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  div {
+    margin-bottom: 15px;
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    select {
+      padding: 5px;
+      font-size: 14px;
+    }
+
+    input {
+      width: 20%;
+      padding: 4px;
+      margin-bottom: 10px;
+      border: 1px solid #3f3f3f;
+      border-radius: 5px;
+    }
+    input::placeholder {
+      color: black;
+    }
+
+    button {
+      padding: 5px 10px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th,
+    td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    button {
+      padding: 5px 10px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+  }
+
+  .formik {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 500px;
+    width: 400px;
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+
+      input {
+        margin-bottom: 10px;
+        padding: 8px;
+        font-size: 14px;
+        width: 375px;
+      }
+
+      button {
+        padding: 10px;
+        background-color: #4caf50;
+        color: black;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: #f8f8f8;
+        }
+      }
+    }
+  }
+}
+
+.divmodal {
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #2b2b2b;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 400px;
+  margin-left: 470px;
+  margin-top: 20px;
+
+  p {
+    margin: 10px 0;
+  }
+
+  .btnmodal {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 14px;
+
+  }
+}

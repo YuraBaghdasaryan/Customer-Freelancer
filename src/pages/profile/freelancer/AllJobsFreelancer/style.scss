@@ -1,0 +1,55 @@
+// style.scss
+
+.table2 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+}
+
+
+.button1 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #3498db;
+  color: #fff;
+  background-color: #3498db;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #2980b9;
+  }
+
+  &:active {
+    background-color: #1f618d;
+  }
+}
+

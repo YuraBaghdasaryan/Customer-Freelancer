@@ -1,0 +1,163 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.nav {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  ul {
+    list-style: none;
+    display: flex;
+    li {
+      margin-right: 20px;
+      a {
+        text-decoration: none;
+        color: #333;
+        &:hover {
+          color: #555;
+        }
+      }
+    }
+  }
+}
+
+.divlog {
+  margin-top: 20px;
+  max-width: 400px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    .form-control {
+      margin-bottom: 10px;
+      padding: 8px;
+      width: 400px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      &:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+      }
+    }
+
+    .error {
+      color: red;
+      margin-top: 5px;
+    }
+
+    .btn1 {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}
+
+.forgotPassword {
+  margin-top: 20px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    .form-control {
+      margin-bottom: 10px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 400px;
+      &:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+      }
+    }
+
+    .error {
+      color: red;
+      margin-top: 5px;
+    }
+
+    .btn18 {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}
+
+.nav {
+  &.forgot1 {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        margin-right: 10px;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+          font-weight: bold;
+          margin-left: 120px;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  &.reset {
+    background-color: #ca212f;
+    color: #ffffff;
+    padding: 10px;
+
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        margin-right: 10px;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+          font-weight: bold;
+          margin-left: 120px;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

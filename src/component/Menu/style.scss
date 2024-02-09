@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  // padding: 15px;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      a {
+        text-decoration: none;
+        color: #61dafb;
+        padding: 10px;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom 0.3s ease;
+
+        &:hover {
+          border-bottom: 2px solid #61dafb;
+        }
+
+        &.active {
+          border-bottom: 2px solid #61dafb;
+        }
+      }
+      button {
+        @extend a;
+        padding: 0 5px;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #008cff00;
+        transition: 0.3s ease;
+        &:hover {
+          background: #61dafb;
+          color: #000;
+        }
+      }
+
+      &:last-child {
+        margin-left: auto;
+      }
+    }
+  }
+}
